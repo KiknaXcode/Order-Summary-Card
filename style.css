@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e1ff;
+}
+.main-container {
+  background-color: white;
+  width: 450px;
+  margin: 102px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+.girl-image {
+  max-width: 100%;
+  height: 220px;
+  border-radius: 20px 20px 0 0;
+}
+.text {
+  margin-top: 20px;
+  line-height: 26px;
+  color: rgba(113, 127, 166, 1);
+}
+.header {
+  margin-top: 20px;
+  color: rgba(31, 46, 85, 1);
+}
+
+.rectangle {
+  display: inline-flex;
+  background-color: #444;
+  width: 354px;
+  height: 98px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 18.52px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 249, 255, 1);
+  border-radius: 11px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.music {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+}
+.link {
+  color: rgba(56, 42, 225, 1);
+  font-size: 14px;
+  margin-right: 10px;
+}
+.link:hover {
+  color: rgba(118, 108, 241, 1);
+}
+.rect-text {
+  font-size: 16px;
+  margin-right: 110px;
+}
+.price {
+  margin-top: 10px;
+  color: rgba(113, 127, 166, 1);
+}
+
+.button {
+  display: inline-flex;
+  background-color: rgba(56, 42, 225, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 354px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+  margin-bottom: 25px;
+  transition: background-color 0.5s;
+}
+.button:hover {
+  background-color: rgba(118, 108, 241, 1);
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  cursor: pointer;
+}
+
+.cancelButton {
+  margin-bottom: 48px;
+}
+.butt:hover {
+  color: rgba(31, 46, 85, 1);
+}
+.butt {
+  text-decoration: none;
+  color: rgba(113, 127, 166, 1);
+}
+.ppp {
+  color: rgba(31, 46, 85, 1);
+}
